@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css"
+  </head>
+    <h1 id="title" type="text">Fantasy Profile Generator</h1>
+    <p id="description">Thank you for taking the time to fill out information for our fantasy generator. We hope you enjoy your results.</p>
+  <body
+  <fieldset>
+    <form id="survey-form">
+    <label id="name-label" for="name">Enter your pretend name: <input placeholder="John Doe" id="name" "type="text" required/>
+    </label>
+    <section>
+    <label for="email" id="email-label">Enter your email address: <input placeholder="abcdef@ghijk.com" id="email" type="email" required/></label>
+    <section>
+      <label id="number-label" for="number">Enter your pretend age: <input placeholder="21" id="number" type="number" min="13" max="100"/></label>
+   <section>
+      <label for="drop-down">How did you hear about this app?</label>
+    <select id="dropdown">
+      <option name="option 1">Select One</option>
+      <option name="option 2">Online/Social media</option>
+      <option name="option 3">Friend/Associate</option>
+    </select>
+    <legend>Which role will you be playing?</legend>
+    <label for="villian-account"><input id="business-account" name="account-type" checked type="radio" value="radio"></input>Villian</label>
+    <label for="hero-account"><input name="account-type" id="personal account" type="radio" value="radio">Hero</input></label>
+    <section>
+      <label>Do you agree to wholeheartedly play this game with full intent on having fun and nothing else?<input type="checkbox" value="fun" name="fun" true</label>I agree.
+   <section>
+      <label>Please read through the terms and conditions carefully.<input name="terms-and-conditions" value="terms-and-conditions" type="checkbox" checked></label> I agree. 
+    <section>
+      <label>Provide a random interesting fact about yourself to help with profile building: <textarea></textarea></label>
+    <input id="submit" type="submit"/>
+  </form>
+  </body>
+  </html>
